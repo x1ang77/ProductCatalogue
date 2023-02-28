@@ -13,7 +13,6 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/products", require("./api/products"));
-// app.use("/leave", require("./api/leave"));
 
 app.listen(5000, () => console.log("App is flying on PORT 5000"));
 
